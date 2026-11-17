@@ -1,0 +1,45 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.python-version
+
+# Secrets & credentials
+.env
+*.env
+kaggle.json
+*.key
+*.pem
+
+# Competition SDK data & fixtures (downloaded, ~12MB) — not source
+data/
+aicomp_sdk*/
+kaggle_evaluation/
+*.whl
+file_seed/
+web_corpus.json
+mail_seed.json
+
+# Model weights
+*.gguf
+*.ckpt
+*.safetensors
+*.bin
+*.pt
+
+# Outputs
+submission.csv
+outputs/
+*.log
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+
+# Personal (not shared)
+
+# Python packaging
+*.egg-info/
+
+# Local model weights
+models/
